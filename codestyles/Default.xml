@@ -1,5 +1,5 @@
 <code_scheme name="Default">
-  <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  <option name="HTML_KEEP_BLANK_LINES" value="1" />
   <option name="HTML_ENFORCE_QUOTES" value="true" />
   <JSCodeStyleSettings>
     <option name="VAR_DECLARATION_WRAP" value="5" />
