@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="xlf" type="PLAIN_TEXT" />
+      <mapping pattern="_popover.scss" type="Stylus" />
       <mapping pattern="autosize" type="TypeScript" />
       <mapping ext="module" type="TypeScript" />
       <mapping ext="guard" type="TypeScript" />
