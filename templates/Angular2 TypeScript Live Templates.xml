@@ -1,5 +1,5 @@
 <templateSet group="Angular2 TypeScript Live Templates">
-  <template name="a-component" value="import { Component, OnInit } from '@angular/core';&#10;&#10;@Component({&#10; selector: '$selectorname$',&#10; templateUrl: '$name$.component.html'&#10;})&#10;&#10;export class $Name$Component implements OnInit {&#10; constructor() { }&#10;&#10; ngOnInit() { }$END$&#10;}" description="Angular component" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-component" value="import { Component, OnInit } from '@angular/core';&#10;&#10;@Component({&#10; selector: '$selectorname$',&#10; templateUrl: '$name$.component.html'&#10;})&#10;&#10;export class $Name$Component implements OnInit {&#10; constructor() { }&#10;&#10; ngOnInit() { }$END$&#10;}" description="Angular component" toReformat="false" toShortenFQNames="true">
     <variable name="selectorname" expression="" defaultValue="&quot;selector-name&quot;" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
@@ -41,7 +41,7 @@
     <variable name="ServiceName" expression="" defaultValue="&quot;ServiceName&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-output-event" value="@Output() $eventName$: EventEmitter&lt;$eventType$&gt; = new EventEmitter&lt;$eventType$&gt;();" description="Angular @Output event and emitter" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-output-event" value="@Output() $eventName$: EventEmitter&lt;$eventType$&gt; = new EventEmitter&lt;$eventType$&gt;();" description="Angular @Output event and emitter" toReformat="false" toShortenFQNames="true">
     <variable name="eventName" expression="" defaultValue="&quot;eventName&quot;" alwaysStopAt="true" />
     <variable name="eventType" expression="" defaultValue="&quot;eventType&quot;" alwaysStopAt="true" />
     <context />
@@ -53,7 +53,7 @@
     <variable name="property" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-component-root" value="import { Component } from '@angular/core';&#10;&#10;@Component({&#10; selector: '$prefixapp$',&#10; template: `&#10;  &lt;router-outlet&gt;&lt;/router-outlet&gt;&#10;  `&#10;})&#10;export class $App$Component { }&#10;$END$" description="Angular App root component" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-component-root" value="import { Component } from '@angular/core';&#10;&#10;@Component({&#10; selector: '$prefixapp$',&#10; template: `&#10;  &lt;router-outlet&gt;&lt;/router-outlet&gt;&#10;  `&#10;})&#10;export class $App$Component { }&#10;$END$" description="Angular App root component" toReformat="false" toShortenFQNames="true">
     <variable name="prefixapp" expression="" defaultValue="&quot;prefix-app&quot;" alwaysStopAt="true" />
     <variable name="App" expression="" defaultValue="&quot;App&quot;" alwaysStopAt="true" />
     <context />
@@ -74,24 +74,24 @@
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-directive" value="import { Directive } from '@angular/core';&#10;&#10;@Directive({ selector: '[$selectorname$]' })&#10;export class $Name$Directive {&#10; constructor() { }&#10;}" description="Angular directive" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-directive" value="import { Directive } from '@angular/core';&#10;&#10;@Directive({ selector: '[$selectorname$]' })&#10;export class $Name$Directive {&#10; constructor() { }&#10;}" description="Angular directive" toReformat="false" toShortenFQNames="true">
     <variable name="selectorname" expression="" defaultValue="&quot;selector-name&quot;" alwaysStopAt="true" />
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-guard-can-activate" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanActivate {&#10; constructor() { }&#10;&#10; canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanActivate guard" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-guard-can-activate" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanActivate {&#10; constructor() { }&#10;&#10; canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanActivate guard" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-guard-can-activate-child" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanActivateChild, RouterStateSnapshot } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanActivateChild {&#10; constructor() { }&#10;&#10; canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanActivateChild guard" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-guard-can-activate-child" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanActivateChild, RouterStateSnapshot } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanActivateChild {&#10; constructor() { }&#10;&#10; canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanActivateChild guard" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-guard-can-load" value="import { Injectable } from '@angular/core';&#10;import { CanLoad, Route } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanLoad {&#10; constructor() { }&#10;&#10; canLoad(route: Route) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanLoad guard" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-guard-can-load" value="import { Injectable } from '@angular/core';&#10;import { CanLoad, Route } from '@angular/router';&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanLoad {&#10; constructor() { }&#10;&#10; canLoad(route: Route) {&#10;  return true;$END$&#10; }&#10;}" description="Angular CanLoad guard" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-guard-can-deactivate" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanDeactivate, RouterStateSnapshot } from '@angular/router';&#10;import { Observable } from 'rxjs/Observable';&#10;&#10;import { $ComponentName$Component } from './$filename$.component';&#10;&#10;// Consider using this interface for all CanDeactivate guards,&#10;// and have your components implement this interface, too.&#10;//&#10;//   e.g. export class CanDeactivateGuard implements CanDeactivate&lt;CanComponentDeactivate&gt; {&#10;//&#10;// export interface CanComponentDeactivate {&#10;// canDeactivate: () =&gt; any;&#10;// }&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanDeactivate&lt;$ComponentName$Component&gt; {&#10; canDeactivate(&#10;  component: $ComponentName$Component,&#10;  currentRoute: ActivatedRouteSnapshot, &#10;  currentState: RouterStateSnapshot&#10; ): Observable&lt;boolean&gt;|Promise&lt;boolean&gt;|boolean {&#10;  return false;$END$&#10; }&#10;}" description="Angular CanDeactivate guard" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-guard-can-deactivate" value="import { Injectable } from '@angular/core';&#10;import { ActivatedRouteSnapshot, CanDeactivate, RouterStateSnapshot } from '@angular/router';&#10;import { Observable } from 'rxjs/Observable';&#10;&#10;import { $ComponentName$Component } from './$filename$.component';&#10;&#10;// Consider using this interface for all CanDeactivate guards,&#10;// and have your components implement this interface, too.&#10;//&#10;//   e.g. export class CanDeactivateGuard implements CanDeactivate&lt;CanComponentDeactivate&gt; {&#10;//&#10;// export interface CanComponentDeactivate {&#10;// canDeactivate: () =&gt; any;&#10;// }&#10;&#10;@Injectable()&#10;export class $Name$Guard implements CanDeactivate&lt;$ComponentName$Component&gt; {&#10; canDeactivate(&#10;  component: $ComponentName$Component,&#10;  currentRoute: ActivatedRouteSnapshot, &#10;  currentState: RouterStateSnapshot&#10; ): Observable&lt;boolean&gt;|Promise&lt;boolean&gt;|boolean {&#10;  return false;$END$&#10; }&#10;}" description="Angular CanDeactivate guard" toReformat="false" toShortenFQNames="true">
     <variable name="ComponentName" expression="" defaultValue="&quot;ComponentName&quot;" alwaysStopAt="true" />
     <variable name="filename" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
@@ -104,7 +104,7 @@
   <template name="rx-observable" value="import { Observable } from 'rxjs/Observable';&#10;$END$" description="RxJS Observable import" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="rx-replay-subject" value="import { ReplaySubject } from 'rxjs/ReplaySubject';&#10;$END$" description="RxJS ReplaySubject import" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="rx-replay-subject" value="import { ReplaySubject } from 'rxjs/ReplaySubject';&#10;$END$" description="RxJS ReplaySubject import" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
   <template name="rx-subject" value="import { Subject } from 'rxjs/Subject';&#10;$END$" description="RxJS Subject import" toReformat="false" toShortenFQNames="true" deactivated="true">
@@ -121,7 +121,7 @@
     <variable name="of" expression="" defaultValue="&quot;of&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-class" value="[class]=&quot;$expression$&quot;" description="Angular [class] binding" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-class" value="[class]=&quot;$expression$&quot;" description="Angular [class] binding" toReformat="false" toShortenFQNames="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context />
   </template>
@@ -130,32 +130,32 @@
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngClass" value="[ngClass]=&quot;{$cssClass$: $expression$}&quot;" description="Angular ngClass" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngClass" value="[ngClass]=&quot;{$cssClass$: $expression$}&quot;" description="Angular ngClass" toReformat="false" toShortenFQNames="true">
     <variable name="cssClass" expression="" defaultValue="&quot;cssClass&quot;" alwaysStopAt="true" />
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngFor" value="*ngFor=&quot;let $item$ of $list$&quot;" description="Angular *ngFor" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngFor" value="*ngFor=&quot;let $item$ of $list$&quot;" description="Angular *ngFor" toReformat="false" toShortenFQNames="true">
     <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="list" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngForAsync" value="*ngFor=&quot;let $item$ of $stream$ | async as $list$&quot;" description="Angular *ngForAsync" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngForAsync" value="*ngFor=&quot;let $item$ of $stream$ | async as $list$&quot;" description="Angular *ngForAsync" toReformat="false" toShortenFQNames="true">
     <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <variable name="stream" expression="" defaultValue="&quot;stream&quot;" alwaysStopAt="true" />
     <variable name="list" expression="" defaultValue="&quot;list&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngIf" value="*ngIf=&quot;$expression$&quot;" description="Angular *ngIf" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngIf" value="*ngIf=&quot;$expression$&quot;" description="Angular *ngIf" toReformat="false" toShortenFQNames="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngIfElse" value="*ngIf=&quot;$expression$;else $templateName$&quot;" description="Angular *ngIfElse" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngIfElse" value="*ngIf=&quot;$expression$;else $templateName$&quot;" description="Angular *ngIfElse" toReformat="false" toShortenFQNames="true">
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <variable name="templateName" expression="" defaultValue="&quot;templateName&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngModel" value="[(ngModel)]=&quot;$binding$&quot;" description="Angular ngModel" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngModel" value="[(ngModel)]=&quot;$binding$&quot;" description="Angular ngModel" toReformat="false" toShortenFQNames="true">
     <variable name="binding" expression="" defaultValue="&quot;binding&quot;" alwaysStopAt="true" />
     <context />
   </template>
@@ -179,7 +179,7 @@
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="a-ngSwitch" value="&lt;div [ngSwitch]=&quot;$conditionExpression$&quot;&gt;&#10; &lt;div *ngSwitchCase=&quot;$expression$&quot;&gt;$output$&lt;/div&gt;&#10; &lt;div *ngSwitchDefault&gt;$output2$&lt;/div&gt;&#10;&lt;/div&gt;" description="Angular ngSwitch" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="a-ngSwitch" value="&lt;div [ngSwitch]=&quot;$conditionExpression$&quot;&gt;&#10; &lt;div *ngSwitchCase=&quot;$expression$&quot;&gt;$output$&lt;/div&gt;&#10; &lt;div *ngSwitchDefault&gt;$output2$&lt;/div&gt;&#10;&lt;/div&gt;" description="Angular ngSwitch" toReformat="false" toShortenFQNames="true">
     <variable name="conditionExpression" expression="" defaultValue="&quot;conditionExpression&quot;" alwaysStopAt="true" />
     <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
     <variable name="output" expression="" defaultValue="&quot;output&quot;" alwaysStopAt="true" />
