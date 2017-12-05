@@ -1,4 +1,4 @@
-<code_scheme name="frontend">
+<code_scheme name="frontend" version="173">
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
   <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,span,img" />
   <option name="HTML_KEEP_WHITESPACES_INSIDE" value="" />
@@ -27,12 +27,15 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_BLANK_LINES" value="1" />
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,span,img" />
+    <option name="HTML_KEEP_WHITESPACES_INSIDE" value="" />
+    <option name="HTML_ENFORCE_QUOTES" value="true" />
+  </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="VAR_DECLARATION_WRAP" value="5" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
-    <option name="IMPORT_SORT_MEMBERS" value="false" />
-    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
-    <option name="IMPORT_USE_NODE_RESOLUTION" value="TRUE" />
   </JSCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
@@ -68,7 +71,6 @@
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="IMPORT_SORT_MEMBERS" value="false" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
-    <option name="IMPORT_USE_NODE_RESOLUTION" value="TRUE" />
   </TypeScriptCodeStyleSettings>
   <codeStyleSettings language="HTML">
     <indentOptions>
